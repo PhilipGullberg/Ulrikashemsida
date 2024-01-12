@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
         <nav>
           <ul class="navigation">
+            
             <li><a href="#training">Träning</a></li>
             <li><a href="#about-me">Om mig</a></li>
             <li><a href="#contact">Kontakt</a></li>

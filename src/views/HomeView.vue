@@ -8,7 +8,7 @@
       </section>
       <section class="intro">
   
-        <p>Träning för Livets Njutning</p>
+        <p>Ulrika Andersson, Träning för Livets Njutning</p>
         <div class="description">
           <p>Dyk in i världen av hälsa och personlig träning med Ulrika Andersson.</p>
           <p>Här handlar det om att öka livet genom fysisk aktivitet och välmående.</p>

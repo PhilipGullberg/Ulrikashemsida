@@ -9,7 +9,7 @@
             <h2 class="card-title">Vem är jag?</h2>
             
               <p class="card-text">Jag heter <strong>Ulrika Andersson </strong>och är utbildad PT med över 35 års erfarenhet. För mig är träning en livsstil som ger glädje til vardagen. Jag vill hjälpa andra att hitta det underbara med träningen och få in det i sin vardag. Jag anpassar mina träningsprogram efter just dig.</p>
-              <button class="card-button">Läs mer</button>
+              <router-link to="/about"><button class="card-button">Läs mer</button></router-link>
           </div>
           <div class="card-image">
             <img src="../assets/IMG_0003.webp" alt="Nature Image">
@@ -203,13 +203,14 @@
           justify-content: center;
           gap:2rem;
       }
+      
       .order{
         justify-content: center;
         flex-direction: column;
       }
       .order img{
-        width:50%;
-        margin-left:2rem;
+        width:60%;
+        
       }
 
       .card-content {
@@ -227,7 +228,7 @@
         flex-direction: column;
       }
       .container-fluid{
-        width:100%;
+        width:400px;
       }
   }
 
@@ -281,12 +282,18 @@
     .container {
       flex-direction: column;
     }
+    .card-container{
+      padding:0rem;
+    }
+    .textBox{
+      padding:0rem;
+    }
   }
   
   .container-fluid {
       text-align: center;
       margin-bottom: 5rem;
-      width: 600px;
+      width: 400px;
       padding:2rem;
   }
 

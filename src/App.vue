@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <div class="links">
               <li><router-link to="/" >Hem</router-link></li>
               <li ><router-link to="/about" >Om mig</router-link></li>
-              <li class="border" ><a href="#contact">Kontakt</a></li>
+              <li class="border" ><router-link to="/contact" >Kontakt</router-link></li>
             </div>
             
           </ul>
@@ -23,7 +23,7 @@ import { RouterLink, RouterView } from 'vue-router'
         
       </nav>
    
-
+  
   <RouterView />
 </template>
 
@@ -77,5 +77,12 @@ header {
   color: #333;
   font-size:14px;
 }
-
+@media screen and (max-width:600px) {
+  .navigation{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+  }
+}
 </style>

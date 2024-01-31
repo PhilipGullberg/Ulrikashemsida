@@ -14,8 +14,9 @@
 Här handlar det om att öka livet genom fysisk aktivitet och välmående.
 Uppskräddarsydda träningsprogram och motivation för att skapa en hälsosammare och gladare livsstil.</p>
         </div>
+        <router-link to="/contact" class="no-underline">
           <button class="cssbuttons-io-button">
-            Kontakta mig
+            <span>Kontakta mig</span>
             <div class="icon">
               <svg
                 height="24"
@@ -31,6 +32,7 @@ Uppskräddarsydda träningsprogram och motivation för att skapa en hälsosammar
               </svg>
             </div>
           </button>
+          </router-link>
 
       </section>
       <section class="profile-image">
@@ -51,29 +53,33 @@ Uppskräddarsydda träningsprogram och motivation för att skapa en hälsosammar
   <AboutMe />
   <div class="banner">
     <h2>Vill du veta mer?</h2>
-    <button class="banner_button">Kontakta mig nu</button>
+    <router-link to="/contact"> <button class="banner_button">Kontakta mig nu</button> </router-link>
   </div>
+  <Testimony />
   <MyWork />
-  <ImageGrid />
+  
 </template>
 
 <script>
 import AboutMe from '../components/AboutMe.vue';
-import ImageGrid from '../components/ImageGrid.vue';
+import Testimony from '../components/Testimony.vue';
 import MyWork from '../components/MyWork.vue';
+
 
 export default {
   name: 'App',
   components: {
     // Register the component
-    AboutMe,ImageGrid, MyWork
+    AboutMe,Testimony, MyWork
   }
   // component logic
 }
 </script>
 
 <style scoped>
-
+.no-underline{
+  text-decoration: none;
+}
 .app-container {
   font-family: 'Open Sans', sans-serif;
  
@@ -105,7 +111,7 @@ export default {
  
 main{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top:5rem;
   
 }
@@ -138,7 +144,7 @@ main{
 .description p {
   color: #555;
   line-height: 1.6;
-  font-size: 20px;
+  font-size: 18px;
   
   font-weight: normal;
  
@@ -163,7 +169,7 @@ main{
 .profile-image img {
   border-radius: 8px;
   width:300px;
-  margin-left:3rem;
+
 }
 .rainbow{
   position: relative;
@@ -176,6 +182,7 @@ svg.rainbow{
 .cssbuttons-io-button {
   background: #F1C6B8;
   color: black;
+  
   font-family: inherit;
   padding: 0.35em;
   padding-left: 1.2em;
@@ -249,14 +256,26 @@ img.blob{
   }
   main{
     flex-direction: column;
+    margin-top: 1rem;
     justify-content: center;
     align-items: center;
   
   }
+  .banner{
+    gap:1rem;
+    flex-direction: column;
+    height:150px;
+  }
+
   .intro {
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+  .description{
+    padding:0rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
   }
   
 }
@@ -266,8 +285,16 @@ img.blob{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex:2;
+    margin-top: 1rem;
   }
-  
+  .profile-image{
+    flex:1;
+  }
+  main{
+    width:100%;
+    justify-content: space-around;
+  }
  
   
   

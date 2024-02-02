@@ -174,6 +174,10 @@ export default {
     }
     .certs{
       justify-content: center;
+      align-items: center;
+    }
+    .certs img{
+      width:150px;
     }
     
   }

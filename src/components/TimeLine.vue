@@ -27,7 +27,7 @@
         <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
     </li>
 </ul>
-<div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">inspired by</a></div>
+
 </template>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");

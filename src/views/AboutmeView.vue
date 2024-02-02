@@ -4,7 +4,7 @@
         <div class="left">
             <h2>Ulrika Andersson</h2>
             <p>Hej! Jag är en personlig tränare med många års erfarenhet
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatum quis voluptate facere commodi? Eligendi vitae blanditiis eveniet delectus maxime exercitationem magnam accusamus harum nisi omnis? Iste autem nostrum modi eaque quasi incidunt illum non. Ipsa, incidunt odit? Quasi magnam quas accusantium nisi laboriosam ab nihil laudantium quam sed minus quaerat modi dolor quisquam totam sunt, incidunt explicabo ipsam molestiae nesciunt optio veniam quae! Omnis laudantium facere quod tenetur explicabo hic esse itaque, ullam laboriosam cumque, tempore optio corporis praesentium! Cum, dolores quia mollitia ut odit, incidunt quibusdam perspiciatis accusantium repellendus magnam fuga expedita alias hic minima sequi. Mollitia, magni.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatum quis voluptate facere commodi? Eligendi vitae blanditiis eveniet delectus maxime exercitationem magnam accusamus harum nisi omnis? Iste autem nostrum modi eaque quasi incidunt illum non. Ipsa, incidunt odit? Quasi magnam quas accusantium nisi laboriosam ab nihil laudantium quam sed minus quaerat modi dolor quisquam totam sunt, incidunt explicabo ipsam molestiae nesciunt optio veniam quae!
             </p>
         </div>
         <div class="right">
@@ -41,5 +41,16 @@ export default {
 }
 .right img{
     width:300px;
+}
+@media screen and (max-width:900px) {
+    .intro{
+        flex-direction: column;
+        align-items: center;
+        gap:2rem;
+    }
+    .left{
+        padding:0rem 2rem;
+    }
+    
 }
 </style>

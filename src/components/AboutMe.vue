@@ -195,6 +195,12 @@
       background-color: #f9b5a1;
       
   }
+  .container-fluid {
+        text-align: center;
+        margin-bottom: 5rem;
+        width: 600px;
+        padding:2rem;
+    }
 
   @media (max-width: 900px) {
       .card-container {
@@ -229,6 +235,7 @@
       }
       .container-fluid{
         width:400px;
+        margin-bottom: 1rem;
       }
   }
 
@@ -290,12 +297,7 @@
     }
   }
   
-  .container-fluid {
-      text-align: center;
-      margin-bottom: 5rem;
-      width: 400px;
-      padding:2rem;
-  }
+  
 
   .media {
     background-image: url(../assets/IMG_1438.webp);

@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
     
       <nav>
         <nav>
-          <ul class="navigation">
+          <div class="navigation">
             <div>
               <li class="underline"><router-link to="/" ><img class="logo" src="../src/assets/ulrika_logo_new.webp" alt=""></router-link></li>
             </div>
@@ -18,7 +18,7 @@ import { RouterLink, RouterView } from 'vue-router'
               <li class="border" ><router-link to="/contact" >Kontakt</router-link></li>
             </div>
             
-          </ul>
+          </div>
         </nav>
         
       </nav>
@@ -82,7 +82,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:1rem;
+    gap:0.2rem;
   }
 }
 </style>

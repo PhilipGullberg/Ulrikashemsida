@@ -1,10 +1,10 @@
 <template>
     <div class="contact-form-container">
-        <form @submit.prevent="submitForm">
+        <form action="https://formspree.io/f/mdoqeayd" method="POST">
             <h1>Kontakta mig</h1>
-            <input type="text" v-model="form.name" placeholder="Ditt namn" required>
-            <input type="email" v-model="form.email" placeholder="Din e-post" required>
-            <textarea v-model="form.message" placeholder="Ditt meddelande" required></textarea>
+            <input type="text" name="name" v-model="form.name" placeholder="Ditt namn" required>
+            <input type="email" name="email" v-model="form.email" placeholder="Din e-post" required>
+            <textarea v-model="form.message" name="message" placeholder="Ditt meddelande" required></textarea>
             <button type="submit" class="submit-btn">Skicka Meddelande</button>
         </form>
     </div>

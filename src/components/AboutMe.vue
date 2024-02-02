@@ -17,9 +17,9 @@
         </div>
    </div>
       <div class="img-card-container">
-          <div class="card" style="background-image: url(../src/assets/IMG_1023.webp);"></div>
-          <div class="card" style="background-image: url(../src/assets/IMG_2702.webp);"></div>
-          <div class="card" style="background-image: url('../src/assets/IMG_0009.webp');"></div>
+          <div class="card card1" ></div>
+          <div class="card card2"></div>
+          <div class="card card3" ></div>
           
       </div>
   </div>
@@ -92,6 +92,16 @@
   #image{
     background-image:url(../assets/IMG_0072.webp);
   }
+  .card1 {
+    background-image: url('../assets/IMG_1023.webp');
+  }
+  .card2{
+    background-image: url('../assets/IMG_2702.webp');
+          
+  }
+  .card3{
+      background-image: url('../assets/IMG_0009.webp');
+    }
   .img-card-container{
     display:flex;
     justify-content: center;

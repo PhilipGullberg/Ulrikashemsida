@@ -37,7 +37,7 @@
         </div>
           
         <div class="right">
-            <img src="../assets/16af2ddf-6e33-4dcd-af20-6a1a802af6ca.webp" alt="">
+            <img src="../assets/ulrikaProf.png" alt="">
         </div>
     </div>
     <Timeline />
@@ -88,7 +88,7 @@ export default {
     font-size: 1.1rem;
 }
 .right img{
-    width:250px;
+    width:350px;
 }
 @media screen and (max-width:900px) {
     .intro{

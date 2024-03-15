@@ -1,31 +1,75 @@
 <template>
-<h1>Mitt arbetsliv</h1>
-<ul>
-    <li style="--accent-color:#41516C">
-        <div class="date">1987</div>
+<h1>Mina utbildningar och tidigare arbeten</h1>
+ 
+  <div class="center"><h2>Studier</h2>
+  <h2>Arbeten</h2></div>
+  
+  <ul >
+    <li class="study">
+        <div class="date">1981-1983</div>
         <div class="title">Studerade</div>
-        <div class="descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!</div>
+        <div class="descr">Vårdlinjen på Kvarningeskolan i Jakobsberg</div>
     </li>
-    <li style="--accent-color:#FBCA3E">
-        <div class="date">2007</div>
-        <div class="title">Title 2</div>
-        <div class="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div>
+    <li class="work">
+        <div class="date">1984-1985</div>
+        <div class="title">Arbetade</div>
+        <div class="descr">Undersköterska, S:t Eriks sjukhus i Stockholm</div>
     </li>
-    <li style="--accent-color:#E24A68">
-        <div class="date">2012</div>
-        <div class="title">Title 3</div>
-        <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima consequuntur soluta placeat iure totam commodi repellendus ea delectus, libero fugit quod reprehenderit, sequi quo, et dolorum saepe nulla hic.</div>
+    <li class="study">
+        <div class="date">1985-1987</div>
+        <div class="title">Studerade</div>
+        <div class="descr"> Idrottspedagoglinjen, Högskolan i Halmstad</div>
     </li>
-    <li style="--accent-color:#1B5F8C">
+   
+    <li class="work">
+        <div class="date">1986-1990</div>
+        <div class="title">Arbetade</div>
+        <div class="descr">Undersköterska, Länssjukhuset i Halmstad</div>
+    </li>
+   
+     <li class="study">
+        <div class="date">1998-2007</div>
+        <div class="title">Studerade</div>
+        <div class="descr">
+          <ol>
+            <li>Tobaksprevention Mälardalens högskola (1998)</li>
+            <li>Hogia PA-kompetens AB, Diplomerad personaladministratör (2004)</li>
+            <li>Högskolan i Halmstad 5p, ”Personal- och ledarskapsutveckling inom idrottsorganisationer och hälsopromotivt arbete.” (2007)</li>
+            <li>Högskolan i Halmstad 5p, ”Det strategiska ledarskapet inom idrottsorganisationer och hälsopromotivt arbete.”</li>
+          </ol></div>
+    </li>
+    
+    
+    <li class="work">
+        <div class="date">1996-2000</div>
+        <div class="title">Arbetade</div>
+        <div class="descr">Friskvårdsinformatör, Landstinget Halland</div>
+    </li>
+    <li></li>
+    <li class="work">
+        <div class="date">1997-2013</div>
+        <div class="title">Arbetade</div>
+        <div class="descr"> Ekonomiansvarig, Halmstad, Aerobic Klubb</div>
+    </li>
+     <li class="study">
+        <div class="date">2016</div>
+        <div class="title">Studerade</div>
+        <div class="descr">The Academy, KTK (kost och träningskonsult)</div>
+    </li>
+       <li  class="work">
+        <div class="date">2014-2016</div>
+        <div class="title">Arbetade</div>
+        <div class="descr"> Bodypump,Bodybalance och Spinninginstruktör Nordic Wellness, Norrköping</div>
+    </li>
+
+    <li class="study">
         <div class="date">2017</div>
-        <div class="title">Title 4</div>
-        <div class="descr">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, cumque.</div>
+        <div class="title">Studerade</div>
+        <div class="descr"> Soma move instruktörsutbildning</div>
     </li>
-    <li style="--accent-color:#4CADAD">
-        <div class="date">2022</div>
-        <div class="title">Title 5</div>
-        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
-    </li>
+   
+    
+ 
 </ul>
 
 </template>
@@ -39,7 +83,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.study{
+  
+  --accent-color:#f1c6b8;
+}
 
+.work{
+  --accent-color:#1b88d1;
+}
 body {
   --color: rgba(30, 30, 30);
   --bgColor: rgba(245, 245, 245);
@@ -54,11 +105,14 @@ body {
 }
 
 h1 {
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
   text-align: center;
+  font-size:38px;
 }
 
-ul {
+
+ul{
   --col-gap: 2rem;
   --row-gap: 2rem;
   --line-w: 0.25rem;
@@ -67,7 +121,7 @@ ul {
   grid-auto-columns: max-content;
   column-gap: var(--col-gap);
   list-style: none;
-  width: min(60rem, 90%);
+  width: min(70rem, 90%);
   margin-inline: auto;
 }
 
@@ -107,7 +161,7 @@ ul li .date {
   background-color: var(--accent-color);
 
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 700;
 
   display: grid;
@@ -145,6 +199,10 @@ ul li .date::after {
   transform: translate(50%, -50%);
   right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
+ul li .title{
+  font-size: 1.1rem;
+  font-style: bold;
+}
 
 /* title descr */
 ul li .title,
@@ -152,6 +210,7 @@ ul li .descr {
   background: var(--bgColor);
   position: relative;
   padding-inline: 1.5rem;
+  
 }
 ul li .title {
   overflow: hidden;
@@ -185,8 +244,17 @@ ul li .descr::before {
   z-index: -1;
   bottom: 0.25rem;
 }
+.center{
+  display:none
+}
 
 @media (min-width: 40rem) {
+  .center{
+    display:flex;
+    justify-content: center;
+    gap:30rem;
+    margin-bottom:2rem;
+  }
   ul {
     grid-template-columns: 1fr var(--line-w) 1fr;
   }
@@ -225,5 +293,9 @@ ul li .descr::before {
 }
 .credits a {
   color: var(--color);
+}
+
+h1{
+  margin-bottom: 2rem;
 }
 </style>

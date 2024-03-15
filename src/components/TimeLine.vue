@@ -25,6 +25,7 @@
         <div class="title">Arbetade</div>
         <div class="descr">Ekonomiansvarig, Halmstad, Aerobic Klubb</div>
     </li>
+    <li></li>
     <li class="work">
         <div class="date">1996-2000</div>
         <div class="title">Arbetade</div>

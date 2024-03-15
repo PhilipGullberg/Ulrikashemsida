@@ -4,30 +4,33 @@
   <div class="center"><h2>Studier</h2>
   <h2>Arbeten</h2></div>
   
-  <ul >
+ <ul>
     <li class="study">
-        <div class="date">1981-1983</div>
+        <div class="date">2017</div>
         <div class="title">Studerade</div>
-        <div class="descr">Vårdlinjen på Kvarningeskolan i Jakobsberg</div>
+        <div class="descr">Soma move instruktörsutbildning</div>
     </li>
     <li class="work">
-        <div class="date">1984-1985</div>
+        <div class="date">2014-2016</div>
         <div class="title">Arbetade</div>
-        <div class="descr">Undersköterska, S:t Eriks sjukhus i Stockholm</div>
+        <div class="descr">Bodypump, Bodybalance och Spinninginstruktör Nordic Wellness, Norrköping</div>
     </li>
     <li class="study">
-        <div class="date">1985-1987</div>
+        <div class="date">2016</div>
         <div class="title">Studerade</div>
-        <div class="descr"> Idrottspedagoglinjen, Högskolan i Halmstad</div>
+        <div class="descr">The Academy, KTK (kost och träningskonsult)</div>
     </li>
-   
     <li class="work">
-        <div class="date">1986-1990</div>
+        <div class="date">1997-2013</div>
         <div class="title">Arbetade</div>
-        <div class="descr">Undersköterska, Länssjukhuset i Halmstad</div>
+        <div class="descr">Ekonomiansvarig, Halmstad, Aerobic Klubb</div>
     </li>
-   
-     <li class="study">
+    <li class="work">
+        <div class="date">1996-2000</div>
+        <div class="title">Arbetade</div>
+        <div class="descr">Friskvårdsinformatör, Landstinget Halland</div>
+    </li>
+    <li class="study">
         <div class="date">1998-2007</div>
         <div class="title">Studerade</div>
         <div class="descr">
@@ -36,40 +39,29 @@
             <li>Hogia PA-kompetens AB, Diplomerad personaladministratör (2004)</li>
             <li>Högskolan i Halmstad 5p, ”Personal- och ledarskapsutveckling inom idrottsorganisationer och hälsopromotivt arbete.” (2007)</li>
             <li>Högskolan i Halmstad 5p, ”Det strategiska ledarskapet inom idrottsorganisationer och hälsopromotivt arbete.”</li>
-          </ol></div>
+          </ol>
+        </div>
     </li>
-    
-    
     <li class="work">
-        <div class="date">1996-2000</div>
+        <div class="date">1986-1990</div>
         <div class="title">Arbetade</div>
-        <div class="descr">Friskvårdsinformatör, Landstinget Halland</div>
+        <div class="descr">Undersköterska, Länssjukhuset i Halmstad</div>
     </li>
-    <li></li>
-    <li class="work">
-        <div class="date">1997-2013</div>
-        <div class="title">Arbetade</div>
-        <div class="descr"> Ekonomiansvarig, Halmstad, Aerobic Klubb</div>
-    </li>
-     <li class="study">
-        <div class="date">2016</div>
-        <div class="title">Studerade</div>
-        <div class="descr">The Academy, KTK (kost och träningskonsult)</div>
-    </li>
-       <li  class="work">
-        <div class="date">2014-2016</div>
-        <div class="title">Arbetade</div>
-        <div class="descr"> Bodypump,Bodybalance och Spinninginstruktör Nordic Wellness, Norrköping</div>
-    </li>
-
     <li class="study">
-        <div class="date">2017</div>
+        <div class="date">1985-1987</div>
         <div class="title">Studerade</div>
-        <div class="descr"> Soma move instruktörsutbildning</div>
+        <div class="descr">Idrottspedagoglinjen, Högskolan i Halmstad</div>
     </li>
-   
-    
- 
+    <li class="work">
+        <div class="date">1984-1985</div>
+        <div class="title">Arbetade</div>
+        <div class="descr">Undersköterska, S:t Eriks sjukhus i Stockholm</div>
+    </li>
+    <li class="study">
+        <div class="date">1981-1983</div>
+        <div class="title">Studerade</div>
+        <div class="descr">Vårdlinjen på Kvarningeskolan i Jakobsberg</div>
+    </li>
 </ul>
 
 </template>
